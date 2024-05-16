@@ -1,10 +1,11 @@
 !pip install tensorflow
 !pip install cvlib
 !pip install opencv-python
+ """Install the dependencies seprat tab"""
 
 from google.colab import drive
 drive.mount('/content/drive') 
-
+"""import the drive in seprate tab"""
 
 from google.colab.patches import cv2_imshow
 from tensorflow.keras.preprocessing.image import img_to_array
